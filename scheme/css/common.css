@@ -113,6 +113,7 @@ li {
   display: -webkit-flex; 
   display: flex; 
 }
+
 /* 顶部每个导航item样式 */
 .links_item {
   height: 3.4rem;
@@ -126,7 +127,6 @@ li {
   display: flex; 
   justify-content: center;
   line-height: 3.4rem;
-
 }
 
 .links_item.platform {
@@ -142,15 +142,11 @@ li {
 }
 
 .links_item a {
-
   color: black;
 }
 
-
-
 /* 底部导航栏样式 */
 .footer-nav {
-
   width: 100%;
   color: white;
   background-color: #157c83;
@@ -162,6 +158,7 @@ li {
   display: flex; 
   flex-direction: column;
 }
+
 .footer-nav-links {
   width: 100%;
 }
@@ -220,9 +217,11 @@ li {
 .item-name.distanceTwo {
   letter-spacing: 0.6rem;
 }
+
 .links-wrapper a{
   color: #fff;
 }
+
 .links-wrapper-item .item-english_name {
   margin-top: 0.5rem;
   font-size: 0.8rem;
@@ -262,7 +261,6 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .desc-name {
