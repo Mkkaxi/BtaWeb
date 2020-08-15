@@ -54,8 +54,6 @@ tr td:first-child{
 }
 .H2-desc{
  margin: 3.4rem 0 4.85rem;
-
-
 }
 .H2-pic img{
   width: 17rem;
@@ -64,7 +62,6 @@ tr td:first-child{
   width: 50.6rem;
   float: left; 
   margin-top: 8rem;
-
 }
 .H2-pic{
   float: right;
