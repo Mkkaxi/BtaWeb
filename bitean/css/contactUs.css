@@ -72,6 +72,10 @@
   font-size: 2.1rem;
   position: relative;
 }
+.contact-information div span a{
+  color: #50C9B3;
+  text-decoration:underline;
+}
 .contact-information div:first-child{
   margin-bottom: 2rem;
 }

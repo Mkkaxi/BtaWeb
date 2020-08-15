@@ -83,7 +83,7 @@ li {
   width: 15.7rem;
   position: absolute;
   left: 10%;
-  top: 23%;
+  top: 21%;
 }
 
 .head-nav-pic img {
@@ -93,21 +93,18 @@ li {
 .head-nav-links {
   float: right;
   width: 66.5%;
-  margin-right: 3.25rem;
-  display: flex;
-  align-items: center;
-  margin-top: 4.6rem;
-  margin-bottom: 2.4rem;
+  margin: 3.6rem 2.8rem 3.6rem 0; 
   display: -webkit-box; 
   display: -moz-box;
   display: -ms-flexbox; 
   display: -webkit-flex; 
   display: flex; 
-  align-items: center;
+  
  
 }
 
 .head-nav-links ul {
+
   width: 100%;
   display: -webkit-box; 
   display: -moz-box;
@@ -127,15 +124,17 @@ li {
   display: -webkit-flex; 
   display: flex; 
   justify-content: center;
-  padding-top: 0.6rem;
+  line-height: 3.4rem;
+
 }
 
 .links_item.platform {
   width: 8.35rem;
+  line-height: 1.7rem;
 }
 
 .links_item.platform a {
-  margin-top: -0.8rem;
+
 }
 
 .links_item.mall {
