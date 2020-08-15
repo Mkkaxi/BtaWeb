@@ -92,6 +92,7 @@
   margin-top: 3.8rem;
   margin-left: 12.6rem;
   font-size: 2.5rem;
+  font-weight: 400;
 }
 
 .scheme-detail p {
@@ -112,7 +113,8 @@
 .product-desc {
   width: 100%;
   background-color: #ececec;
-  padding: 1.875rem 3.906rem 9.479rem 4.6875rem;
+  padding: 3.875rem 3.906rem 5.479rem 4.6875rem;
+
   box-sizing: border-box;
 }
 
@@ -143,11 +145,13 @@
 
 .function-content ul {
   width: 100%;
+  margin-left: 1.7rem;
+  margin-top: 10px;
 }
 
 .function-content ul li {
-  list-style-type: disc;
   width: 100%;
+  list-style-type: disc;
 }
 
 .right {
@@ -156,15 +160,14 @@
 }
 
 .left {
-  margin-right: 3.125rem;
-  width: 52.4%;
+  margin-right: 3.525rem;
+  width: 50.4%;
 }
 
 .rightText, .leftText{
   font-size: 1.5625rem;
   line-height: 2.5rem;
 }
-
 
 .process {
   text-align: center;

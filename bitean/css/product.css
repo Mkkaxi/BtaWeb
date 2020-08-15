@@ -56,6 +56,8 @@
   margin-bottom: 0.52rem;
 }
 
+
+/* 充换电云平台 */
 .platforms {
   width: 100%;
   overflow: hidden;
@@ -110,7 +112,6 @@
 }
 
 .platform-content-text {
-  width: 22.2%;
   margin-top: 2.6rem;
   margin-left: 3.125rem;
   float: left;
@@ -127,7 +128,7 @@
 }
 
 .text-content ul {
-  width: 38rem;
+  width: 37rem;
   padding: 0;
   margin-left: 1rem;
 }

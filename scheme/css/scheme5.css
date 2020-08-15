@@ -46,16 +46,10 @@
   font-size: 3.385rem;
 }
 
-
 .scheme-content {
   width: 100%;
-  height: 40.75rem;
+  /* height: 40.75rem; */
   margin-top: 6.823rem;
-  background-image: url(../img/bg.png);
-  -webkit-background-size: 100% 140%;
-  -moz-background-size: 100% 140%;
-  -o-background-size: 100% 140%;
-  background-position: 0 -10rem;
 }
 
 .scheme-content-items {
@@ -144,14 +138,12 @@
 }
 
 .function-content ul {
-  width: 100%;
   margin-left: 1.7rem;
   margin-top: 10px;
 }
 
 .function-content ul li {
   list-style-type: disc;
-  width: 100%;
 }
 
 .right {
@@ -170,24 +162,117 @@
 }
 
 
-.process {
+
+/* 电网解决方案 */
+.powerGrid {
+  margin-top: 2rem;
+  margin-bottom: 1.1rem;
   text-align: center;
-  width: 100%;
-  margin-bottom: 3.906rem;
 }
 
-.process-title {
-  font-size: 3.385rem;
-  padding: 4.6875rem 0; 
-  font-weight: 300;
+.powerGrid-title {
+  padding: 3.85rem 0;
 }
 
-.process-solve {
-  width: 78.4%;
+.powerGrid-img {
+  width: 41.98%;
   margin: 0 auto;
 }
 
-.process-solve img {
+.powerGrid-img img {
   width: 100%;
 }
 
+.powerGrid-title span {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+
+/* 充换电云平台 */
+.platforms {
+  width: 100%;
+  overflow: hidden;
+}
+
+.platform-content {
+  overflow: hidden;
+  padding: 2rem 2rem 2rem 5rem; 
+}
+
+.platform-content-img {
+  position: relative;
+  width: 50.9%;
+  height: 32rem;
+  margin-top: 3.125rem;
+  float: left;
+}
+
+.form1 {
+  position: absolute;
+  width: 98.6%;
+}
+
+.form2 {
+  position: absolute;
+  width: 77%;
+  top: 10%;
+  left: 10.26rem;
+}
+
+.platform-content-text {
+  margin-top: 2.6rem;
+  margin-left: 3.125rem;
+  float: left;
+}
+
+.text-title {
+  font-size: 3rem;
+}
+
+.text-title span {
+  display: block;
+  padding: 0.1rem 0;
+}
+
+.text-content ul {
+  width: 37rem;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.text-content li {
+  list-style-type: disc;
+}
+
+.text-content {
+  margin-top: 1rem;
+  font-size: 1.5625rem;
+}
+
+.power_cabinet {
+  width: 100%;
+}
+
+.power_cabinet .functions-img {
+  width: 46.7%;
+  position: relative;
+}
+
+.power_cabinet .functions-img img {
+  position: absolute;
+}
+
+.ware12 {
+  position: absolute;
+  width: 53.9%;
+  z-index: 10;
+}
+
+.ware8 {
+  position: absolute;
+  width: 39.9%;
+  left: 20.9rem;
+  top: -1.2rem;
+  z-index: 9;
+}
