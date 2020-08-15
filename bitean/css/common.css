@@ -1,3 +1,5 @@
+/* 标签初始化 */
+/* 顶部导航栏和底部底部导航栏样式 */
 body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, p {
   margin: 0;
   padding: 0;
@@ -48,17 +50,12 @@ html {
     font-size: 12.24px;
   }
 }
-
 html, body {
   width: 100%;
 }
-
 body {
   min-width: 1200px;
 }
-
-/* 导航栏和底部样式 */
-
 a {
   text-decoration: none;
   color: #000;
@@ -83,7 +80,7 @@ li {
   width: 15.7rem;
   position: absolute;
   left: 10%;
-  top: 23%;
+  top: 21%;
 }
 
 .head-nav-pic img {
@@ -93,21 +90,18 @@ li {
 .head-nav-links {
   float: right;
   width: 66.5%;
-  margin-right: 3.25rem;
-  display: flex;
-  align-items: center;
-  margin-top: 4.6rem;
-  margin-bottom: 2.4rem;
+  margin: 3.6rem 2.8rem 3.6rem 0; 
   display: -webkit-box; 
   display: -moz-box;
   display: -ms-flexbox; 
   display: -webkit-flex; 
   display: flex; 
-  align-items: center;
+  
  
 }
 
 .head-nav-links ul {
+
   width: 100%;
   display: -webkit-box; 
   display: -moz-box;
@@ -127,17 +121,14 @@ li {
   display: -webkit-flex; 
   display: flex; 
   justify-content: center;
-  padding-top: 0.6rem;
+  line-height: 3.4rem;
+
 }
 
 .links_item.platform {
   width: 8.35rem;
+  line-height: 1.7rem;
 }
-
-.links_item.platform a {
-  margin-top: -0.8rem;
-}
-
 .links_item.mall {
   width: 7.1rem;
 }
@@ -151,49 +142,7 @@ li {
   color: black;
 }
 
-/* 顶部导航栏下面的图片模块 */
-.section-pic {
-  position: relative;
-}
 
-.section-pic img {
-  width: 100%;
-}
-
-.pic-slogan {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url(../img/联系我们标语背景图.png);
-  padding: 2.4rem 2.9rem 0.7rem;
-  font-size: 3.4rem;
-  color: white;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.slogan-one {
-  color: #FF9600;
-}
-
-.slogan-one::after {
-  content: '';
-  position: absolute;
-  width: 0.8rem;
-  height: 0.8rem;
-  border-radius: 50%;
-  background-color: white;
-  left: 49.4%;
-  top: 48%;
-}
-
-.theUrl {
-  font-size: 1.2rem;
-  text-align: right;
-  font-style: italic;
-  margin-top: 0.2rem;
-}
 
 
 /* 底部导航栏样式 */
@@ -315,4 +264,4 @@ li {
 
 .desc-name {
   margin-bottom: 0.6rem;
-}
+}   
