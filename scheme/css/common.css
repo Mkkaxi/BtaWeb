@@ -1,3 +1,5 @@
+/* 标签初始化 */
+/* 顶部导航栏和底部底部导航栏样式 */
 body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, p {
   margin: 0;
   padding: 0;
@@ -99,6 +101,8 @@ li {
   display: -ms-flexbox; 
   display: -webkit-flex; 
   display: flex; 
+  
+ 
 }
 
 .head-nav-links ul {
@@ -129,7 +133,6 @@ li {
   width: 8.35rem;
   line-height: 1.7rem;
 }
-
 .links_item.mall {
   width: 7.1rem;
 }
