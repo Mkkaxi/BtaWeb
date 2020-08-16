@@ -202,7 +202,7 @@
 
 .platform-content-img {
   position: relative;
-  width: 50.9%;
+  width: 51.9%;
   height: 32rem;
   margin-top: 3.125rem;
   float: left;
@@ -221,6 +221,7 @@
 }
 
 .platform-content-text {
+  width: 42%;
   margin-top: 2.6rem;
   margin-left: 3.125rem;
   float: left;
@@ -236,7 +237,7 @@
 }
 
 .text-content ul {
-  width: 37rem;
+  width: 100%;
   padding: 0;
   margin-left: 1rem;
 }
