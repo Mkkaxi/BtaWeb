@@ -59,8 +59,6 @@ body {
   min-width: 1200px;
 }
 
-/* 导航栏和底部样式 */
-
 a {
   text-decoration: none;
   color: #000;
@@ -100,9 +98,7 @@ li {
   display: -moz-box;
   display: -ms-flexbox; 
   display: -webkit-flex; 
-  display: flex; 
-  
- 
+  display: flex;
 }
 
 .head-nav-links ul {
@@ -133,6 +129,7 @@ li {
   width: 8.35rem;
   line-height: 1.7rem;
 }
+
 .links_item.mall {
   width: 7.1rem;
 }
@@ -203,7 +200,15 @@ li {
 .img_wrapper img {
   width: 2rem;
 }
-
+.img_wrapper .about-us{
+  width: 2.8rem;
+}
+.img_wrapper .contact-us{
+  width: 2.85rem;
+}
+.img_wrapper .copyright{
+  width: 1.75rem;
+}
 .links-wrapper-item .item-name {
   margin-top: 1.2rem;
   font-size: 1.25rem;
