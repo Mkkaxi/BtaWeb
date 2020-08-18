@@ -147,7 +147,7 @@ li {
   width: 100%;
   color: white;
   background-color: #157c83;
-  padding-top: 1.75rem;
+  /* padding-top: 1.75rem; */
   display: -webkit-box; 
   display: -moz-box;
   display: -ms-flexbox; 
@@ -158,6 +158,7 @@ li {
 
 .footer-nav-links {
   width: 100%;
+  display: none;
 }
 
 .links-wrapper {
@@ -200,7 +201,15 @@ li {
 .img_wrapper img {
   width: 2rem;
 }
-
+.img_wrapper .about-us{
+  width: 2.8rem;
+}
+.img_wrapper .contact-us{
+  width: 2.85rem;
+}
+.img_wrapper .copyright{
+  width: 1.75rem;
+}
 .links-wrapper-item .item-name {
   margin-top: 1.2rem;
   font-size: 1.25rem;
@@ -246,10 +255,10 @@ li {
 
 .company_desc-wrapper {
   width: 67.08%;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   padding: 3rem 0;
   font-size: 0.85rem;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   display: -webkit-box; 
   display: -moz-box;
   display: -ms-flexbox; 

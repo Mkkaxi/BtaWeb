@@ -10,7 +10,6 @@
 
 /* 内容主体 */
 
-
 /* h2标题 */
 
 .content-main h2 {
@@ -287,4 +286,36 @@
 
 .experience-content__mid {
   margin-bottom: 3.7rem;
+}
+
+.content-mid-top, .content-mid-down {
+  display: flex;
+}
+
+.content-mid-top {
+  margin-bottom: 1rem;
+}
+
+.content-mid-top :last-child, .content-mid-down :last-child {
+  margin-right: 0;
+}
+
+.content-mid__desc {
+  margin-right: 2.75rem;
+  width: 33%;
+}
+
+.mid-desc__title {
+  background: #768395;
+  color: #fff;
+  font-size: 1.65rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.mid-desc__text p {
+  font-size: 1.2rem;
+  line-height: 2.0rem;
+  text-align: left;
+  padding: 0 1.4rem;
 }

@@ -106,15 +106,3 @@ text-align: left;
 .small{
 font-size: 1.5rem !important;
 }
-.detail-main,
-.function-main{
-width: 100%;
-padding: 3.5rem 0 2.8rem;
-text-align: center;
-}
-.detail-main img{
-width: 58.07%;
-}
-.function-main img{
-width: 84.27%;
-}

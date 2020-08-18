@@ -59,7 +59,7 @@
 .name_pic img{
   width: 100%;
 }
-
+/* 标题部分公共样式 */
 .section{
   width: 100%;
 }
@@ -70,6 +70,7 @@
   border-bottom: 1px solid #000;
   margin: 0 auto;
 }
+/* 配置参数 */
 .configuration-main{
  padding: 3.5rem 0 0 11.05rem;
  width: 100%;
@@ -104,15 +105,4 @@ text-align: left;
 .small{
 font-size: 1.5rem !important;
 }
-.detail-main,
-.function-main{
-width: 100%;
-padding: 3.5rem 0 2.8rem;
-text-align: center;
-}
-.detail-main img{
-width: 58.43%;
-}
-.function-main img{
-width: 84.74%;
-}
+/* 详细配置 */
