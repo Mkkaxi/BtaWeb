@@ -46,29 +46,35 @@
   font-size: 3.385rem;
 }
 
+
 .scheme-content {
   width: 100%;
-  /* height: 40.75rem; */
+  height: 40.75rem;
   margin-top: 6.823rem;
+  background-image: url(../img/bg.png);
+  -webkit-background-size: 100% 140%;
+  -moz-background-size: 100% 140%;
+  -o-background-size: 100% 140%;
+  background-position: 0 -10rem;
 }
 
 .scheme-content-items {
-  width: 88.4%;
+  width: 84.4%;
   margin: 0 auto;
   overflow: hidden;
   padding: 0;
 }
 
 .item {
-  width: 20%;
+  width: 16.66%;
   float: left;
   text-align: center;
 }
 
 .item .item-icon {
   margin: 0 auto;
-  width: 6.927rem;
-  height: 6.927rem;
+  width: 5.927rem;
+  height: 5.927rem;
 }
 
 .item .item-icon img {
@@ -144,8 +150,8 @@
 }
 
 .function-content ul li {
-  list-style-type: disc;
   width: 100%;
+  list-style-type: disc;
 }
 
 .right {
@@ -163,10 +169,29 @@
   line-height: 2.5rem;
 }
 
+/* 方案1 2 */
+.process {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3.906rem;
+}
 
+.process-title {
+  font-size: 3.385rem;
+  padding: 4.6875rem 0; 
+  font-weight: 300;
+}
 
-/* 电网解决方案 */
+.process-solve{
+  width: 78.4%;
+  margin: 0 auto;
+}
 
+.process-solve img {
+  width: 100%;
+}
+
+/* 方案3 4 5 6 */
 .powerGrid {
   margin-top: 2rem;
   margin-bottom: 1.1rem;
@@ -191,14 +216,21 @@
   font-weight: 300;
 }
 
+.scheme1, .scheme2, .scheme3, .scheme4, .scheme5, .scheme6 {
+  display: none;
+}
+
+.item-icon:hover, .item-text:hover {
+  cursor: pointer;
+}
+
+
 
 /* 充换电云平台 */
 .platforms {
   width: 100%;
   overflow: hidden;
 }
-
-
 
 .platform-content {
   overflow: hidden;
@@ -242,6 +274,7 @@
 }
 
 .text-content ul {
+  width: 100%;
   padding: 0;
   margin-left: 1rem;
 }
@@ -255,6 +288,36 @@
   font-size: 1.5625rem;
 }
 
+
+/* 换电柜 */
+.power_cabinet {
+  width: 100%;
+}
+
+.power_cabinet .functions-img {
+  width: 46.7%;
+  position: relative;
+}
+
+.power_cabinet .functions-img img {
+  position: absolute;
+}
+
+.ware12 {
+  position: absolute;
+  width: 53.9%;
+  z-index: 10;
+}
+
+.ware8 {
+  position: absolute;
+  width: 39.9%;
+  left: 20.9rem;
+  top: -1.2rem;
+  z-index: 9;
+}
+
+/* 小程序 */
 .miniApp-title {
   text-align: center;
   font-size: 3.125rem;
@@ -269,3 +332,4 @@
 .miniApp-content img {
   width: 100%;
 }
+
