@@ -1,3 +1,4 @@
+
 /* banner图 */
 
 .content-banner {
@@ -42,11 +43,11 @@
 /* 解决方案上半部分 */
 
 .solution-explain__top {
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   margin-bottom: 3rem;
   align-items: center;
 }
@@ -83,32 +84,30 @@
   margin: 3rem 2.5rem 0 2.5rem;
 }
 
-/* 中间三张图 */
+/* 中间两张图 */
 
 .solution-scheme-top {
   margin-bottom: 1rem;
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   justify-content: space-between;
+}
+
+.solution-scheme-top :first-child {
+  margin-right: 1rem;
 }
 
 .solution-plan {
   position: relative;
-  flex: 1;
+  width: 49.4%;
   height: 20.4rem;
   background: url(../img/solution_2.png) no-repeat;
-  background-size: 100% 100%;
-  margin-right: 0.75rem;
+  background-size: cover;
 }
 
-.solution-plan__last {
-  background: url(../img/solution_6.png) no-repeat;
-  background-size: 100% 100%;
-  margin-right: 0;
-}
 
 /* 文字描述 */
 
@@ -142,11 +141,11 @@
 /* 方案下部分 */
 
 .solution-scheme-down {
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   justify-content: space-between;
 }
 
@@ -156,24 +155,9 @@
 
 /* 下面三张图 */
 
-.scheme-down__pic {
-  background: url(../img/solution_3.png) no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  flex:1;
-  height: 20.4rem;
-  margin-right: 0.75rem;
+.product-img {
+  width: 100%;
 }
-.scheme-down__bg2{
-  background: url(../img/solution_4.png) no-repeat;
-  background-size: 100% 100%;
-}
-.scheme-down__lastPic{
-  background: url(../img/solution_5.png) no-repeat;
-  background-size: 100% 100%;
-  margin-right: 0;
-}
-
 
 /* 文字 */
 
@@ -195,8 +179,26 @@
   font-size: 1.65rem;
 }
 
+/* 左边图片 */
 
+.scheme-down__one {
+  position: relative;
+  width: 32%;
+}
 
+/* 中间图片 */
+
+.scheme-down__two {
+  position: relative;
+  width: 32.5%;
+}
+
+/* 右边图片 */
+
+.scheme-down__three {
+  position: relative;
+  width: 33.5%;
+}
 
 /* 第二部分：产品及方案 */
 
@@ -211,11 +213,11 @@
 
 .product-content {
   border-top: 1px solid #000;
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   padding-top: 4.5rem;
 }
 
@@ -273,11 +275,11 @@
 /* 左下 */
 
 .content-left__down {
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   flex-wrap: wrap;
   position: absolute;
   margin: 0 2.8rem;
@@ -321,18 +323,17 @@
 .down-list__text {
   font-size: 1.5rem;
   line-height: 1.7rem;
-  margin-left: 0.45rem;
 }
 
 /* 右边部分 */
 
 .product-content__right {
   width: 40.37%;
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 4rem;
@@ -352,21 +353,21 @@
 }
 
 .right-box__inner {
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   align-items: center;
   /* padding-top: 2rem; */
 }
 
 .right-box {
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   align-items: center;
 }
 
@@ -383,24 +384,18 @@
 .right-box__pic img {
   width: 100%;
 }
-.right-last__pic{
-  flex: 1;
-}
+
 .right-last__pic img {
-  width: 67%;
+  width: 80%;
 }
 
 .right-box__text {
-  max-width: 32%;
+  max-width: 31%;
   margin-right: 0.8rem;
   margin-left: 0.4rem;
 }
-.last-box__text{
-  max-width: 25%;
-  margin-right: 1.3rem;
-  margin-left: 0.6rem;
-}
-.right-box {
+
+.right-box  {
   font-size: 1.7rem;
 }
 
@@ -418,11 +413,11 @@
 .partner-content {
   border-top: 1px solid #000;
   padding: 3.5rem 2.5rem 3rem 2.5rem;
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: flex; 
   flex-wrap: wrap;
   justify-content: space-between;
 }
