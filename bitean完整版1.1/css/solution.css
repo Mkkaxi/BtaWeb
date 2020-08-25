@@ -82,16 +82,16 @@
 }
 
 .item .item-text {
-  font-size: 1.5625rem;
+  font-size: 1.875rem;
   text-align: center;
   padding: 2.396rem 0;
-  line-height: 1.5625rem;
+  line-height: 2.275rem;
 }
 
 .scheme-detail {
   margin-top: 3.8rem;
   margin-left: 12.6rem;
-  font-size: 2.5rem;
+  font-size: 1.875rem;
   font-weight: 400;
 }
 
@@ -100,11 +100,12 @@
 }
 
 .scheme-detail-title {
+  font-size: 1.875rem;
   color: #0036A2;
 }
 
 .product-title {
-  font-size: 3.385rem;
+  font-size: 3.185rem;
   padding: 3.385rem 0;
   text-align: center;
   font-weight: 300;
@@ -366,7 +367,7 @@
   .scheme-detail {
     margin: 0 auto;
     width: 90%;
-    font-size: 3rem;
+    font-size: 1.875rem;
   }
 
   .function {
