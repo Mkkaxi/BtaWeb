@@ -276,3 +276,21 @@ li {
 .company_desc-wrapper a  {
   color: #fff;
 }
+
+@media screen and (max-width: 480px) {
+  .head-nav-pic {
+    left: 3%;
+  }
+  .links_item.contactUs{
+    width: 12rem;
+  }
+  .head-nav-pic img {
+    width: 80%;
+  }
+  .links_item {
+    font-size: 1.5rem;
+  }
+  .company_desc-wrapper{
+    font-size: 1.75rem;
+  }
+}
