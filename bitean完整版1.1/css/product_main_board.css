@@ -106,3 +106,69 @@ text-align: left;
 font-size: 1.5rem !important;
 }
 /* 详细配置 */
+@media  screen and (max-width: 480px){
+  .section-pic{
+    display: none;
+  }
+  .main-title{
+    font-size: 3rem;
+  }
+  .name_desc{
+    border: 0;
+    width: 100%;
+    height: auto;
+    float: none;
+    
+  }
+  .name_desc .span{
+    font-size: 4rem;
+  }
+  .name_desc span.span-one{
+   font-size: 3.5rem;
+  }
+  .span-two{
+   
+    font-size: 3rem;
+    margin: 1rem 0 1rem 0;
+  }
+  .name_pic{
+    width: 84%;
+    margin: 1rem 4rem 0;
+    float: none;
+    
+    padding-bottom: 2rem;
+  }
+  .section-title{
+    font-size: 3.5rem;
+  }
+  .configuration-main{
+
+    flex-wrap: wrap;
+    padding: 3.5rem 6rem 0 8rem;
+  }
+  .configuration_item{
+    flex: 50%;
+    
+  }
+  .item-pic{
+    width: 10rem;
+  }
+  .item-desc span{
+    font-size: 2.8rem;
+  }
+  .small{
+    font-size: 2.5rem !important;
+  }
+  .detail-main{
+    padding: 3.5rem 8rem 2.8rem;
+  }
+  table tr{
+    font-size: 2.2rem;
+  }
+  tr td, tr th{
+    line-height: 4rem;
+  }
+  .function-main table th{
+    font-size: 2.5rem;
+  }
+}

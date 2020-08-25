@@ -69,3 +69,14 @@
 .contact-information div:first-child{
   margin-bottom: 2rem;
 }  
+@media screen and (max-width: 480px){
+  .section-pic{
+    display: none;
+  }
+  .main-title{
+    font-size: 3rem;
+  }
+  .main span{
+    font-size: 2.5rem;
+  }
+}

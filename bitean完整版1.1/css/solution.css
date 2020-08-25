@@ -339,6 +339,10 @@
   font-weight: 400; 
 } */
 
+.functions-img-mob {
+  display: none;
+}
+
 
 @media screen and (max-width:480px){
   html {
@@ -378,7 +382,7 @@
     font-size: 2.2rem;
   }
 
-  .functions-img {
+  .power_cabinet .functions-img {
     display: none;
   }
 
@@ -412,7 +416,6 @@
   .text-content {
     font-size: 2.5rem;
   }
-
 }
 
 
