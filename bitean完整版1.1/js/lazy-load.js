@@ -1,7 +1,6 @@
  // 拿到可视区域的高度
  let viewHeight = document.documentElement.clientHeight
  let viewWidth = document.documentElement.clientWidth
- console.log(viewWidth)
  function lazyLoad() {
    let eles = document.querySelectorAll('img[data-original][lazyload]') 
    // console.log(eles)
@@ -28,7 +27,6 @@
   }
   function nolazyload() {
     let eles = document.querySelectorAll('img[data-original][lazyload]')
-    console.log(eles)
     Array.prototype.forEach.call(eles,item => {
       let img = new Image()
       img.src = item.dataset.original
@@ -43,7 +41,6 @@
   }
  window.onload = function () {
   if (viewWidth <= 480) { //移动端
-       console.log('22')
        nolazyload()
      
     }else{

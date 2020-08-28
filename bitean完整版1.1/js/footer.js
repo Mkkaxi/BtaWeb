@@ -38,7 +38,7 @@ document.writeln("  </div>");
 document.writeln("  <div class=\'footer-company_desc\'>");
 document.writeln("    <div class=\'company_desc-wrapper\'>");
 document.writeln("      <span class=\'desc-name\'>© 2020 深圳市比特安科技有限公司</span>");
-document.writeln("      <a href='http://beian.miit.gov.cn/'><span>粤ICP备19041769号</span></a>");
+document.writeln("      <a href='https://beian.miit.gov.cn/'><span>粤ICP备19041769号</span></a>");
 document.writeln("    </div>");
 document.writeln("  </div>");
 document.writeln("</div>");

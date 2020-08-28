@@ -255,3 +255,99 @@ line-height: 2.4rem;
 .partner-content__list img {
   width: 100%;
 }
+
+
+@media screen and (max-width: 480px) {
+
+  html {
+    font-size: 19.2px;
+  }
+
+   .banner {
+     display: none;
+   }
+
+   .advantage-title {
+     padding: 0;
+     margin-bottom: 50px;
+   }
+
+  .advantage-content-img {
+    float: none;
+    width: 100%;
+  }
+
+  .advantage-content-text {
+    width: 100%;
+    margin: 0;
+    font-size: 2.3rem;
+  }
+
+  .platforms {
+    margin-top: 80px;
+  }
+  
+  .platform-content-img {
+    width: 100%;
+    float: none;
+  }
+
+  .platform-content-text {
+    width: 100%;
+    padding: 20px 20px;
+    float: none;
+  }
+
+  .form1 {
+    width: 80%;
+  }
+
+  .form2 {
+    width: 71%;
+    left: 11%;
+  }
+
+  .text-content {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+
+  .ctrBoard-content-item {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .ctrBoard-content-item img {
+    height: auto;
+  }
+
+  .ctrBoard-content-item p {
+    font-size: 3rem;
+  }
+
+  .application-content-item {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+
+  .application-content-item p {
+    position: relative;
+  }
+
+  /* 合作伙伴 */
+  .partner-title{
+    margin-top: 2rem;
+  }
+  .partner-content__list{
+    width: 47%;
+  }
+  .partner-content__list{
+    margin-bottom: 1.65rem;
+  }
+
+  
+}

@@ -151,12 +151,12 @@
   color: rgba(255, 255, 255, .3);
   font-size: 1.65rem;
 }
-
+/* 
 .solution-scheme__text {
   position: absolute;
   top: 1.2rem;
   left: 1.4rem;
-}
+} */
 
 /* 第二部分：产品及方案 */
 
@@ -454,9 +454,10 @@
     margin: 0 0 1rem 0;
   }
   .solution-plan__text {
-    top: 1.2rem;
-    left: 1.4rem;
+    top: 2.4rem;
+    left: 3.1rem;
   }
+
   .product-content {
     border-top: 1px solid #000;
     display: block;
