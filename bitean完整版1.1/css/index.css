@@ -151,6 +151,7 @@
   color: rgba(255, 255, 255, .3);
   font-size: 1.65rem;
 }
+
 /* 
 .solution-scheme__text {
   position: absolute;
@@ -409,14 +410,14 @@
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 5px;
+    font-size: 7px;
   }
   .content-banner {
     display: none;
     height: 28rem;
     margin-top: 9rem;
   }
-  .solution-title{
+  .solution-title {
     margin-top: 0;
   }
   .solution-explain__top {
@@ -445,7 +446,7 @@
     width: 49%;
   }
   .solution-plan__chinese {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .solution-plan__english {
     font-size: 1.3rem;
@@ -457,7 +458,6 @@
     top: 2.4rem;
     left: 3.1rem;
   }
-
   .product-content {
     border-top: 1px solid #000;
     display: block;
@@ -483,13 +483,19 @@
     width: 60%;
   }
   /* 合作伙伴 */
-  .partner-title{
+  .partner-title {
     margin-top: 2rem;
   }
-  .partner-content__list{
+  .partner-content__list {
     width: 47%;
   }
-  .partner-content__list{
+  .partner-content__list {
     margin-bottom: 1.65rem;
+  }
+  .text-chinese {
+    font-size: 2.7rem;
+  }
+  .text-english {
+    font-size: 1.8rem;
   }
 }

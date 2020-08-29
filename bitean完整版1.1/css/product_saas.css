@@ -319,7 +319,7 @@
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 20px;
+    font-size:7px;
   }
   .content-banner{
     display: none;
@@ -340,11 +340,15 @@
   margin: 0 auto;
 }
 .content-top__left{
-  margin-left: 5rem;
-  margin-right: 7rem;
+  margin-left: 2rem;
+  margin-right: 4rem;
 }
 .content-top__right{
+  width: 70%;
   margin-right: 3rem;
+}
+.content-top__left{
+  width: 30%;
 }
 .competition-content__mid{
   display: block;
@@ -378,5 +382,14 @@ margin: 0 auto;
   width: 47%;
   margin-bottom: 2rem;
 }
-
+.framework-content__desc tr :first-child{
+  min-width: 9rem;
+}
+.framework-content__desc{
+  margin-right: 5rem;
+  margin-left: 4rem;
+}
+.mid-desc__text p{
+  line-height: 2.5rem;
+}
 }
