@@ -110,7 +110,7 @@ font-size: 1.5rem !important;
 /* 移动端的适配 */
 @media  screen and (max-width: 480px){
   html{
-    font-size: 20px;
+    font-size: 5px;
   }
   .section-pic{
     display: none;

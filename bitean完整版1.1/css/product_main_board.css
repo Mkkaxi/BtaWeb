@@ -107,80 +107,75 @@ font-size: 1.5rem !important;
 }
 /* 详细配置 */
 @media  screen and (max-width: 480px){
-
-  .head-nav-links ul{
-    margin: 2.3rem 2.8rem 3.6rem 0; 
+  html{
+    font-size: 5px;
   }
-  .links_item{
-    line-height: 6rem;
-    height: 6rem;
-  }
-  .links_item.platform {
-    line-height: 3rem;
-  }
- 
   .section-pic{
     display: none;
   }
   .main-title{
-    font-size: 4rem;
+    font-size: 2.7rem;
   }
   .name_desc{
     border: 0;
-    width: 100%;
+    width: 90%;
     height: auto;
     float: none;
+    padding:3.8rem 0 0 5rem;
     
   }
   .name_desc .span{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .name_desc span.span-one{
-   font-size: 3.5rem;
+   font-size: 2.4rem;
   }
   .span-two{
-   
-    font-size: 3rem;
+    font-size: 2.1rem;
     margin: 1rem 0 1rem 0;
   }
   .name_pic{
     width: 84%;
-    margin: 1rem 4rem 0;
+    margin: 0 auto;
     float: none;
-    
     padding-bottom: 2rem;
   }
   .section-title{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .configuration-main{
 
     flex-wrap: wrap;
-    padding: 3.5rem 6rem 0 8rem;
+    padding: 3.5rem 0 0 5rem;
   }
   .configuration_item{
     flex: 50%;
     
   }
   .item-pic{
-    width: 10rem;
+    width: 7rem;
   }
   .item-desc span{
-    font-size: 2.8rem;
+    font-size: 1.5rem;
   }
   .small{
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
   }
   .detail-main{
-    padding: 3.5rem 8rem 2.8rem;
+    padding: 3.5rem 4rem 2.8rem;
   }
   table tr{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
   tr td, tr th{
-    line-height: 4rem;
+    line-height: 3rem;
+    padding: 0 0.3rem;
   }
   .function-main table th{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
+  .function-main {
+    padding: 3.5rem 4rem 2.8rem;
+  }
+ 
 }
