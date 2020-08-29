@@ -150,6 +150,15 @@
   .title {
     padding: 20px 0;
   }
+
+  .content {
+    padding-top: 27px;
+  }
+
+  .intro-desc-text .textContent {
+    line-height: 16px;
+  }
+
 }
 
 
