@@ -276,6 +276,9 @@ li {
   color: #fff;
 }
 @media screen and (max-width: 480px) {
+  body {
+    min-width: 100%;
+  }
   .head-nav-pic {
     width: 28%;
     left: 3%;
