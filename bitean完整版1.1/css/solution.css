@@ -350,7 +350,7 @@
 
 @media screen and (max-width:480px){
   html {
-    font-size: 18.2px;
+    font-size: 6px;
   }
   .banner {
     display: none;
@@ -368,7 +368,7 @@
   }
 
   .scheme-detail {
-    padding-left: 110px;
+    padding-left: 30px;
     margin: 0 auto;
     width: 90%;
     font-size: 1.875rem;
@@ -401,7 +401,7 @@
   .platform-content-img {
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
 
   .form1 {
@@ -422,9 +422,9 @@
   }
 
   .functions-img {
-    height: 740px;
+    height: 230px;
     width: 100%;
-    left: 50px;
+    left: 20px;
   }
 
   .ware12 {
@@ -432,8 +432,7 @@
   }
   .ware8 {
     width: 68%;
-    top: 18px;
-    left: 390px;
+    top: 5px;
   }
   .flex {
     display: block;
