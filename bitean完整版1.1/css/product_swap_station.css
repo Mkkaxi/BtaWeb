@@ -204,7 +204,7 @@ tr td:first-child {
 /* 移动端的适配 */
 @media  screen and (max-width: 480px){
   html{
-    font-size: 20px;
+    font-size: 5px;
   }
   .section-pic{
     display: none;
@@ -236,10 +236,21 @@ tr td:first-child {
   .H1-info{
     font-size: 3.6rem;
     margin-top: 8rem;
+    float: none;
+    text-align: left;
+  }
+
+  .H1-pic img{
+    min-width: 0;
+  }
+  .H2-pic{
+    float: none;
+    text-align: center;
   }
   .info-desc{
     font-size: 2.9rem;
   }
+  
   .parameters{
     font-size: 3rem;
     line-height: 3rem;
@@ -248,6 +259,12 @@ tr td:first-child {
     font-size: 2.6rem;
     padding-left: 2rem;
     height: 6rem;
+  }
+  .H1-desc{
+    text-align: center;
+  }
+  .H1-pic{
+    float: none;
   }
   .H2-desc{
     margin: 7rem 0 4.85rem;
