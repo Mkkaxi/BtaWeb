@@ -222,6 +222,12 @@
 
           <!-- 换电柜 -->
           <div class="function power_cabinet scheme5 flex">
+
+            <div class="functions-img mobile">
+              <img class="ware12" src="" lazyload="true" data-original="./img/12warehouse.png" alt="">
+              <img class="ware8" src="" lazyload="true" data-original="./img/8warehouse.png" alt="">
+            </div>
+
             <!-- 换电柜功能说明 -->
             <div class="function-content left">
               <div class="function-content-title" style="text-align: left;">
@@ -238,7 +244,7 @@
               </ul>
             </div>
             <!-- 换电柜图 -->
-            <div class="functions-img">
+            <div class="functions-img pc">
               <img class="ware12" src="" lazyload="true" data-original="./img/12warehouse.png" alt="">
               <img class="ware8" src="" lazyload="true" data-original="./img/8warehouse.png" alt="">
             </div>
@@ -271,6 +277,11 @@
 
           <!-- 检测板 -->
           <div class="function">
+
+            <div class="function-img mobile">
+              <img src="" lazyload="true" data-original="./img/detectionboard.png" alt="">
+            </div>
+
             <!-- 检测板功能说明 -->
             <div class="function-content left">
               <div class="function-content-title" style="text-align: right;">
@@ -288,7 +299,7 @@
               </ul>
             </div>
             <!-- 检测板图 -->
-            <div class="function-img">
+            <div class="function-img pc">
               <img src="" lazyload="true" data-original="./img/detectionboard.png" alt="">
             </div>
           </div>
@@ -422,18 +433,6 @@
         </div>
       </div>
 
-      <!-- 小程序 -->
-      <!-- <div class="miniApp scheme6">
-        <div class="miniApp-title">
-          <span>小程序</span>
-        </div>
-
-        <div class="steps"></div>
-        <div class="steps"></div>
-        <div class="steps"></div>
-      </div>
-    </div> -->
-
     <!--  footer -->
     <script src="./js/footer.js"></script>
   </div>
@@ -465,8 +464,14 @@
           let scheme = document.getElementsByClassName(`scheme${index}`)
           if(index == 5) {
             for (let i = 0; i < scheme.length; i++) {
-              scheme[i].style.display = 'block'
-              flex.style.display = 'flex'
+              if (viewWidth <= 480) {
+                scheme[i].style.display = 'block'
+                flex.style.display = 'block'
+              } else {
+                scheme[i].style.display = 'block'
+                flex.style.display = 'flex'
+              }
+                
             }
           } else {
             for (let i = 0; i < scheme.length; i++) {
@@ -507,8 +512,15 @@
                 if(i == page) {
                   window[`scheme${page}`][j].style.display = 'block'
                   if(page == 5) {
-                    window[`scheme${page}`][j].style.display = 'block'
-                    flex.style.display = 'flex'
+                    if (viewWidth <= 480) 
+                    {
+                      window[`scheme${page}`][j].style.display = 'block'
+                      flex.style.display = 'block'
+                    } else {
+                      window[`scheme${page}`][j].style.display = 'block'
+                      flex.style.display = 'flex'
+                    }
+                    
                   }
                 }
               }
