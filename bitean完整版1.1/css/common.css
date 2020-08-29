@@ -82,7 +82,7 @@ li {
 .head-nav-pic {
   width: 15.7rem;
   position: absolute;
-  left: 10%;
+  left: 13%;
   top: 20%;
 }
 
@@ -94,11 +94,6 @@ li {
   float: right;
   width: 66.5%;
   margin: 3.6rem 2.8rem 3.6rem 0; 
-  display: -webkit-box; 
-  display: -moz-box;
-  display: -ms-flexbox; 
-  display: -webkit-flex; 
-  display: flex;
 }
 
 .head-nav-links ul {
@@ -124,7 +119,10 @@ li {
   justify-content: center;
   line-height: 3.4rem;
 }
-
+.links_item a{
+  width: 100%;
+  text-align: center;
+}
 .links_item.platform {
   width: 8.35rem;
   line-height: 1.7rem;
@@ -279,17 +277,40 @@ li {
 }
 @media screen and (max-width: 480px) {
   .head-nav-pic {
+    width: 28%;
     left: 3%;
   }
   .links_item.contactUs{
     width: 12rem;
   }
+  .head-nav-links{
+    margin: 2.3rem 2.8rem 3.6rem 0; 
+
+  }
   .head-nav-pic img {
-    width: 80%;
+    width: 100%;
+  }
+  .head-nav-links ul{
+    flex-wrap: wrap;
   }
   .links_item {
-    font-size: 1.5rem;
+    width: 24%;
+    font-size: 40px;
+    height: 4rem;
+    line-height: 4rem;
   }
+  .links_item.platform {
+    line-height: 2rem;
+  }
+  .links_item.platform ,
+  .links_item.mall,
+  .links_item.contactUs{
+    width: 24%;
+  }
+  .links_item.enterprise{
+    border: none;
+  }
+
   .company_desc-wrapper{
     font-size: 1.75rem;
   }

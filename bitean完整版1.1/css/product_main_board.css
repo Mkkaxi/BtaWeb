@@ -107,11 +107,23 @@ font-size: 1.5rem !important;
 }
 /* 详细配置 */
 @media  screen and (max-width: 480px){
+
+  .head-nav-links ul{
+    margin: 2.3rem 2.8rem 3.6rem 0; 
+  }
+  .links_item{
+    line-height: 6rem;
+    height: 6rem;
+  }
+  .links_item.platform {
+    line-height: 3rem;
+  }
+ 
   .section-pic{
     display: none;
   }
   .main-title{
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .name_desc{
     border: 0;

@@ -12,7 +12,7 @@ document.writeln("        <ul>");
 document.writeln("          <li class=\'links_item\'><a href=\'./index.html\'>首页</a></li>");
 document.writeln("          <li class=\'links_item\'><a href=\'./solution.html\'>方案</a> </li>");
 document.writeln("          <li class=\'links_item\'><a href=\'./product.html\'>产品</a></li>");
-document.writeln("          <li class=\'links_item\'><a href=\'./enterprise.html\'>企业</a></li>");
+document.writeln("          <li class=\'links_item enterprise\'><a href=\'./enterprise.html\'>企业</a></li>");
 document.writeln("          <li class=\'links_item\'><a href=\'./cooperation.html\'>合作</a></li>");
 document.writeln("          <li class=\'links_item mall\'><a href=\'javascript:void(0)\'>商城</a></li>");
 document.writeln("          <li class=\'links_item platform\'><a href=\'./product_saas.html\'>充换电 <br /> 云平台</a></li>");
