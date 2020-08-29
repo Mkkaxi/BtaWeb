@@ -70,9 +70,9 @@
   margin-bottom: 2rem;
 }  
 @media screen and (max-width: 480px){
-  html{
+  /* html{
     font-size: 20px;
-  }
+  } */
   .section-pic{
     display: none;
   }

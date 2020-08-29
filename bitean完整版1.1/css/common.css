@@ -302,13 +302,13 @@ li {
   }
   .links_item {
     width: 24%;
-    font-size: 2.5rem;
-    height: 5rem;
-    line-height: 5rem;
+    font-size: 12.5px;
+    height: 25px;
+    line-height: 25px;
     border-right: 1px solid black;
   }
   .links_item.platform {
-    line-height: 2.7rem;
+    line-height: 13.5px;
   }
   .links_item.platform ,
   .links_item.mall,
