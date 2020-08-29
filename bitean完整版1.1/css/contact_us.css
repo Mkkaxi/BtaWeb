@@ -52,8 +52,11 @@
 .qr-code{
   position: absolute;
   width: 10rem;
-  left: 38rem;
+  left: 40rem;
   top:2rem;
+}
+.qr-code  img{
+  width: 100%;
 }
 .contact-information {
   width: 100%;
