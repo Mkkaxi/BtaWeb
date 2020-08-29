@@ -450,6 +450,9 @@
     display: block;
   }
 
+  .function-img img {
+    margin-bottom: 20px;
+  }
   
 }
 
